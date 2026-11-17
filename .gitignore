@@ -1,0 +1,9 @@
+node_modules/
+.next/
+.env*
+!.env.example
+*.tsbuildinfo
+outputs/
+.sites-runtime/
+out/
+.pages-build/

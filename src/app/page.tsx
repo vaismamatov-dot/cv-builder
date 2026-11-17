@@ -1,0 +1,2 @@
+import Workshop from '@/features/editor/Workshop';
+export default function Home(){const enabled=process.env.PAGES_BUILD!=='true'&&process.env.AI_ENABLED==='true'&&!!process.env.AI_API_KEY&&!!process.env.AI_MODEL&&!!process.env.RATE_LIMIT_REDIS_URL&&!!process.env.RATE_LIMIT_REDIS_TOKEN&&!!process.env.RATE_LIMIT_HASH_SECRET;return <Workshop aiEnabled={enabled} providerLabel={process.env.AI_PROVIDER_LABEL||'Google Gemini'} privacyUrl={process.env.AI_PRIVACY_URL||'https://ai.google.dev/gemini-api/terms'}/>;}
