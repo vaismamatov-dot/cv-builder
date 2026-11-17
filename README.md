@@ -2,6 +2,8 @@
 
 Локальное веб-приложение по [PRD](./PRD.md), [SPEC](./SPEC.md) и [DESIGN](./DESIGN.md). Тёплый рабочий экран, сиреневые закладки, редактируемая анкета и настоящий PDF-предпросмотр.
 
+[Открыть сайт](https://vaismamatov-dot.github.io/cv-builder/) · [Репозиторий](https://github.com/vaismamatov-dot/cv-builder)
+
 ## Версия для GitHub Pages
 
 Сборка `npm run build:pages` создаёт статический сайт в `out/` с префиксом `/cv-builder`. Для другого имени репозитория задайте `NEXT_PUBLIC_BASE_PATH=/<имя-репозитория>` перед сборкой. Редактор, фото, IndexedDB и оба PDF-формата работают в браузере. ИИ в этой сборке принудительно выключен: GitHub Pages не запускает серверный API. Исходный API сохранён для обычного Next.js-размещения.
